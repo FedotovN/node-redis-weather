@@ -1,6 +1,7 @@
 import { Response, Request } from "express";
 import WeatherService from "../services/WeatherService.js";
 
+
 class WeatherController {
     async getWeather(req: Request, res: Response) {
         const { body } = req;
